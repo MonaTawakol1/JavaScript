@@ -1,0 +1,107 @@
+[{
+    "question": "What is JavaScript?",
+    "options": {
+      "a": "JavaScript is a scripting language used to make the website interactive",
+      "b": "JavaScript is an assembly language used to make the website interactive",
+      "c": "JavaScript is a compiled language used to make the website interactive",
+      "d": "None of the mentioned"
+    },
+    "answer": "a"
+  },
+    {
+      "question": "Which of the following is correct about JavaScript?",
+      "options": {
+        "a": "JavaScript is an Object-Based language",
+        "b": "JavaScript is Assembly-language",
+        "c": "JavaScript is an Object-Oriented language",
+        "d": "JavaScript is a High-level language"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Among the given statements, which statement defines closures in JavaScript?",
+      "options": {
+        "a": "JavaScript is a function that is enclosed with references to its inner function scope",
+        "b": "JavaScript is a function that is enclosed with references to its lexical environment",
+        "c": "JavaScript is a function that is enclosed with the object to its inner function scope",
+        "d": "None of the mentioned"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What will be the output of the following JavaScript code snippet?",
+      "code": "<p id=\"demo\"></p>\nvar txt1 = \"Sanfoundry_\";\nvar txt2 = \"Javascriptmcq\";\ndocument.getElementById(\"demo\").innerHTML = txt1 + txt2;",
+      "options": {
+        "a": "error",
+        "b": "Sanfoundry_ Javascriptmcq",
+        "c": "undefined",
+        "d": "Sanfoundry_Javascriptmcq"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "What will be the output of the following JavaScript code?",
+      "code": "<p id=\"demo\"></p>\n<script>\nvar js = 10;\njs *= 5;\ndocument.getElementById(\"demo\").innerHTML = js;\n</script>",
+      "options": {
+        "a": "10",
+        "b": "50",
+        "c": "5",
+        "d": "Error"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Arrays in JavaScript are defined by which of the following statements?",
+      "options": {
+        "a": "It is an ordered list of values",
+        "b": "It is an ordered list of objects",
+        "c": "It is an ordered list of string",
+        "d": "It is an ordered list of functions"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "What will be the output of the following JavaScript code?",
+      "code": "// JavaScript Comparison Operators\nfunction compare()\n{\n    let a=2;\n    let b=2.0;\n    if(a==b)\n        return true;\n    else\n        return false;\n}",
+      "options": {
+        "a": "false",
+        "b": "true",
+        "c": "compilation error",
+        "d": "runtime error"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "What will be the output of the following JavaScript code snippet?",
+      "code": "// JavaScript Equalto Operators\nfunction equalto()\n{\n    let num=10;\n    if(num===\"10\")\n        return true;\n    else\n        return false;\n}",
+      "options": {
+        "a": "false",
+        "b": "true",
+        "c": "compilation error",
+        "d": "runtime error"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Will the following JavaScript code work?",
+      "code": "var js = (function(x) {return x*x;}(10));",
+      "options": {
+        "a": "Exception will be thrown",
+        "b": "Memory leak",
+        "c": "Error",
+        "d": "Yes, perfectly"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "Which of the following is not a JavaScript data type?",
+      "options": {
+        "a": "Null type",
+        "b": "Undefined type",
+        "c": "Number type",
+        "d": "All of the mentioned"
+      },
+      "answer": "d"
+    }
+  ]
+   
